@@ -1,7 +1,7 @@
 Rozdział 1: Wprowadzenie
 ========================
 
-**Autor:** [Dawid Szokało]
+**Autor:** Dawid Szokało
 
 Niniejszy rozdział stanowi wstęp do sprawozdania końcowego z przedmiotu Bazy Danych, realizowanego w semestrze letnim roku akademickiego 2025/2026 na kierunku informatyka techniczna.
 
