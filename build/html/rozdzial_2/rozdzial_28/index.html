@@ -16,7 +16,7 @@
     <link rel="index" title="Indeks" href="../../genindex.html" />
     <link rel="search" title="Szukaj" href="../../search.html" />
     <link rel="next" title="&lt;no title&gt;" href="../../rozdzial_3/index.html" />
-    <link rel="prev" title="6. Bezpieczeństwo kopii zapasowych i Disaster Recovery" href="../rozdzial_27/rozdzial_6.html" />
+    <link rel="prev" title="Bezpieczeństwo kopii zapasowych i Disaster Recovery" href="../rozdzial_27/rozdzial_6.html" />
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -36,7 +36,11 @@
             
   <section id="kopie-zapasowe-i-odzyskiwanie-danych">
 <h1>Kopie zapasowe i odzyskiwanie danych<a class="headerlink" href="#kopie-zapasowe-i-odzyskiwanie-danych" title="Link to this heading">¶</a></h1>
-<p><strong>Autorzy:</strong> Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz</p>
+<dl class="field-list simple">
+<dt class="field-odd">Autorzy<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz</p>
+</dd>
+</dl>
 <section id="wstep">
 <h2>Wstęp<a class="headerlink" href="#wstep" title="Link to this heading">¶</a></h2>
 <p>Kopie zapasowe w PostgreSQL można podzielić na dwa główne nurty: kopie logiczne wykonywane narzędziami <code class="docutils literal notranslate"><span class="pre">pg_dump</span></code> i <code class="docutils literal notranslate"><span class="pre">pg_dumpall</span></code>  oraz kopie fizyczne całego klastra wykonywane m.in. przez <code class="docutils literal notranslate"><span class="pre">pg_basebackup</span></code> wraz z archiwizacją WAL dla odzyskiwania punktowego PITR (Point-in-Time Recovery). Kopie logiczne są wygodne do odtwarzania pojedynczych obiektów i pojedynczych baz, natomiast kopie fizyczne są podstawą pełnego odtworzenia instancji, tablespaces i odzyskiwania po awariach.</p>
@@ -163,7 +167,7 @@ find<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$KATA
 <li class="toctree-l2"><a class="reference internal" href="../rozdzial_23/index.html">Kontrola i konserwacja</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../rozdzial_24/index.html">Monitorowanie i diagnostyka</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../rozdzial_25/index.html">Wydajność, skalowanie i replikacja</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../rozdzial_26/index.html">2.6. Partycjonowanie danych</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../rozdzial_26/index.html">Partycjonowanie danych</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../rozdzial_27/index.html">Bezpieczeństwo Baz Danych</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Kopie zapasowe i odzyskiwanie danych</a></li>
 </ul>
@@ -178,7 +182,7 @@ find<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$KATA
 <ul>
   <li><a href="../../index.html">Documentation overview</a><ul>
   <li><a href="../index.html">Badania literaturowe</a><ul>
-      <li>Previous: <a href="../rozdzial_27/rozdzial_6.html" title="poprzedni rozdział">6. Bezpieczeństwo kopii zapasowych i Disaster Recovery</a></li>
+      <li>Previous: <a href="../rozdzial_27/rozdzial_6.html" title="poprzedni rozdział">Bezpieczeństwo kopii zapasowych i Disaster Recovery</a></li>
       <li>Next: <a href="../../rozdzial_3/index.html" title="następny rozdział">&lt;no title&gt;</a></li>
   </ul></li>
   </ul></li>
